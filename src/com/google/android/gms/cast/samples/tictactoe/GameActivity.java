@@ -59,7 +59,7 @@ public class GameActivity extends ActionBarActivity {
 
     //private static final String APP_ID = "BFEBD3F1";
     private static final String APP_ID = Cast.CastApi.makeApplicationId(
-    		"http://castapp.infthink.com/tictactoe/tictactoe.html");
+               "http://myfirefly.s3.amazonaws.com/cast/receiver/tictactoe/tictactoe.html");
 
     private Button mJoinGameButton;
     private GameView mGameView;
